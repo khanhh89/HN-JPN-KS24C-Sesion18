@@ -9,7 +9,7 @@ int main(){
 	struct student usesr02;
 	printf("Moi ban nhap thong tin sinh vien.\n");
 	printf("Nhap ten day du cho sinh vien: ");
-	scanf("%s",&usesr02.fullName);
+	fgets(usesr02.fullName, sizeof(usesr02.fullName),stdin);
 	fflush(stdin);
 	printf("Nhap tuoi cho sinh vien: ");
 	scanf("%d",&usesr02.age);
