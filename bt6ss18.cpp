@@ -28,10 +28,10 @@ int main(){
     }
     printf("Danh sach sinh vien day du: \n");
     for(int i=0;i<count;i++){
-        printf("%d",students[i].id);
-        printf("%s",students[i].name);
-        printf("%d",students[i].age);
-        printf("%s",students[i].phoneNumber);
+        printf("%d\n",students[i].id);
+        printf("%s\n",students[i].name);
+        printf("%d\n",students[i].age);
+        printf("%s\n\n",students[i].phoneNumber);
     }
     return 0;
 }
