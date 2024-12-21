@@ -33,6 +33,8 @@ int main(){
     		printf("=============================");
     		}
     	}
+	if (!found) {
+        printf("Khong tim thay sinh vien co ID = %d.\n", search);
     printf("=========================================");
     printf("\nThong tin sinh vien hien tai la:\n");
     for(int i=0;i<5;i++){
